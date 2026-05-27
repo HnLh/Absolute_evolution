@@ -245,9 +245,13 @@ UNO Q → Movement → Pixels → Buzzer
 4. Commit + Push แรก
 
 5. สมัคร Edge Impulse → สร้าง project ทีม
-6. ใส่ link ใน README ทีม
-7. Commit + Push
+6. ต่อ UNO Q ให้ขึ้นใน Devices
+7. ทดสอบ Data acquisition ให้ data ไหลเข้า Studio
+8. ใส่ link ใน README ทีม
+9. Commit + Push
 ```
+
+คู่มือ setup เต็ม: [connect-edge-impulse.md](../labs/setup/connect-edge-impulse.md) และ [Arduino UNO Q + Edge Impulse](https://docs.edgeimpulse.com/hardware/boards/arduino-uno-q)
 
 ---
 
