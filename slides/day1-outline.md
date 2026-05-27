@@ -208,7 +208,7 @@ Output: Modulino Pixels (สีตามคลาส)
 
 ## 📑 Section 3: Setup Block — 09:30-10:00
 
-### Step 1 — Boot UNO Q
+### Step 1 — เริ่มใช้ UNO Q ก่อน
 
 ```
 1. เสียบ USB-C เข้า UNO Q
@@ -216,11 +216,17 @@ Output: Modulino Pixels (สีตามคลาส)
 3. เปิด Arduino App Lab
 4. Login
 5. เห็นบอร์ดในรายการ ✓
+6. กด Setup → ต่อ Wi-Fi ให้เรียบร้อย
 ```
+
+checkpoint ของ step นี้:
+- เห็น UNO Q ใน App Lab
+- บอร์ด boot ติด
+- พร้อมไปต่อ Modulino และ Edge Impulse
 
 ---
 
-### Step 2 — Connect Modulino
+### Step 2 — ต่อ Modulino แล้วลองอ่าน sensor
 
 ```
 ⚠️ Qwiic polarized — เสียบผิดด้านเสียบไม่ได้
@@ -230,6 +236,8 @@ UNO Q → Movement → Pixels → Buzzer
 
 ทดสอบ: เปิด sample sketch
 "ModulinoExamples/Movement/ReadAccelerometer"
+
+ถ้าอ่านค่าได้ = UNO Q ฝั่งอุปกรณ์พร้อมแล้ว
 ```
 
 ---
